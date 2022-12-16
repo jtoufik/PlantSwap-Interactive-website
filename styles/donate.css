@@ -1,0 +1,103 @@
+.header-donate{
+    height: 6em;
+}
+
+
+.main-donate{
+    margin: 0;
+}
+
+
+.bg-form{
+    background-image: url(../assets/backgrounds/leaves6.jpg);
+    background-color: var(--green);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 10em;
+}
+
+.container-form{
+    background-color: #f7f3f1dc;
+    backdrop-filter: invert(70%);
+    backdrop-filter: blur(5px);  
+    -webkit-backdrop-filter: blur(10px);
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.1em 0em 3em;
+    border-radius: 5px;
+}
+
+.h1-donate{
+    color: black;
+    border-bottom: solid 2px;
+    margin-left: 2.7em;
+    margin-right: 2.7em;
+    padding-bottom: .5em;
+    border-color: var(--green);
+    margin-bottom: 0.5em;
+}
+
+.p-header-donate{
+    text-align: center;
+}
+
+.form-plantswap{
+    margin: 0 auto;
+    display: block;
+    width: 40em;
+}
+
+.form-donate{
+    margin-top: 2em;
+}
+
+
+
+.fieldset-donate{
+    margin-bottom: 1em;
+    font-family: Montserrat;
+    color: var(--dark-green);
+    border-radius: 5px;
+    border-color: var(--green);
+}
+
+.box-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+}
+
+.label-donate{
+    margin-bottom: .5em;
+}
+
+.input-image{
+    background-color: #ffff;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.btn-submit{
+    padding: 1em 5em;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 2em;
+}
+
+.input-donate, .texarea-donate{
+    font-family: arial;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 1em;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.footer-donate-logo{
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 3em;
+    width: 40%;
+    margin: 0 auto;
+}
