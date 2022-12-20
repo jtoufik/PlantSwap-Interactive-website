@@ -44,7 +44,6 @@
 
         <div class="bg-form"> 
         <article class="container-form">
-
             <header class="header-donate">
                 <h1 class="h1-donate">Stek doneren</h1>
                 <p class="p-header-donate"> 
@@ -53,41 +52,36 @@
             </header>
 
             <form class="form-plantswap form-donate" action="" method="get">
-
                 <fieldset class="fieldset-donate">
-                    <legend>Afbeelding </legend>
+                    <legend class="legend-donate"> Titel </legend>
+                        <div class="box-input">
+                            <label class="label-donate" for="name">Geef je stekje een titel: </label>
+                            <input  class="input-donate" required="required" maxlength="54" placeholder="Naam van het stekje is.." type="text" name="name">
+                        </div>
+                </fieldset>
+                <fieldset class="fieldset-donate">
+                    <legend class="legend-donate">Afbeelding </legend>
                         <div class="box-input">
                             <label class="label-donate" for="text"> Upload hier een foto van je stekje:</label>
-                            <div class="input-image">
-                                <input type="file" accept="image/png, image/jpeg">
+                            <div class="input-image input-donate">
+                                <input class="input-add-image" type="file" accept="image/png, image/jpeg">
                             </div>
                         </div>
                 </fieldset>
-
-                <fieldset class="fieldset-donate">
-                    <legend> Titel </legend>
-                        <div class="box-input">
-                            <label class="label-donate" for="name">Geef je stekje een titel: </label>
-                            <input  class="input-donate" required="required" maxlength="54" placeholder="Naam van het stekje.." type="text" name="name">
-                        </div>
-                </fieldset>
-
                 <fieldset class="fieldset-donate"> 
-                    <legend> Omschrijving </legend>
-                        <div class="box-input">
-                            <label class="label-donate" for="text" >Omschrijf hier wat voor type stekje het is:</label>
-                            <textarea class="texarea-donate" name="description" rows="8" required="required" cols="50" placeholder="Vertel meer over je stekje.."></textarea>
-                        </div>
-                </fieldset>
-    
-                <fieldset class="fieldset-donate"> 
-                    <legend> Tips & tops</legend>
+                    <legend class="legend-donate"> Verzorging</legend>
                         <div class="box-input">
                             <label class="label-donate" for="text" > Geef hier wat tips & tops om het stekje te verzorgen: </label>
-                            <textarea class="texarea-donate" name="description" rows="8" required="required" cols="50" placeholder="Wat zijn belangerijke aspecten wat betreft verzorging.."></textarea>
+                            <textarea class="texarea-donate" name="description" rows="5" required="required" cols="50" placeholder="Stekje verzorg je door.."></textarea>
                         </div>
                 </fieldset>
-
+                <fieldset class="fieldset-donate"> 
+                    <legend class="legend-donate"> Omschrijving </legend>
+                        <div class="box-input">
+                            <label class="label-donate" for="text" >Omschrijf hier wat voor type stekje het is:</label>
+                            <textarea class="texarea-donate" name="description" rows="5" required="required" cols="50" placeholder="Mijn stekje is een.."></textarea>
+                        </div>
+                </fieldset>
                 <div class="">
                     <input class="btn-all btn-primary btn-submit" href="" type="submit" value="Klaar om te doneren">
                 </div>

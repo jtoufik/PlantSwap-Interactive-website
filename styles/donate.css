@@ -25,6 +25,7 @@
     margin: 0 auto;
     padding: 0.1em 0em 3em;
     border-radius: 5px;
+    box-shadow: 0 0 20px 1px rgba(131, 131, 131, 0.4);
 }
 
 .h1-donate{
@@ -51,14 +52,23 @@
     margin-top: 2em;
 }
 
-
-
 .fieldset-donate{
     margin-bottom: 1em;
     font-family: Montserrat;
-    color: var(--dark-green);
+    color: var(--black);
+    background-color: rgba(255, 255, 255, 0.585);
+    border: solid 1px rgba(182, 178, 178, 0.29);
     border-radius: 5px;
-    border-color: var(--green);
+    position: relative;
+    padding-top: 3em;
+}
+
+.legend-donate{
+    color: var(--dark-green);
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    top: 1em; left: .5em;
 }
 
 .box-input{
@@ -69,6 +79,7 @@
 
 .label-donate{
     margin-bottom: .5em;
+    font-weight: lighter;
 }
 
 .input-image{
@@ -91,8 +102,12 @@
     color: rgb(0, 0, 0);
     font-size: 16px;
     padding: 1em;
-    border-style: none;
+	border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+textarea{
+    resize: none;
 }
 
 .footer-donate-logo{
@@ -100,4 +115,8 @@
     padding-top: 3em;
     width: 40%;
     margin: 0 auto;
+}
+
+.input-add-image{
+    color: var(--dark-green);
 }

@@ -39,89 +39,87 @@
             </div>
         </nav>
     </header>
-
     <main class="main-plant">
-
         <div class="plant-container">
             <article class="plant-chosen plant-box">
                 <header class="header-donate">
-                    <h1 class="h1-donate">Uw gekozen stekje</h1>
+                    <h1 class="h1-plant h1-donate">Uw gekozen stekje</h1>
                 </header>
                 <section class="section-plant">
-                    <fieldset class="fieldset-donate">
-                        <legend>Afbeelding </legend>
-                        <img  class="img-plant" src="./assets/plants/Monstera.jpeg"  alt="Stekje: Monstera Adansonii">
-                    </fieldset>
-                    <fieldset class="fieldset-donate">
-                        <legend> Titel </legend>
-                        <p>
-                            Monstera Adansonii
-                        </p>
-                    </fieldset>
-                    <fieldset class="fieldset-donate"> 
-                        <legend> Omschrijving </legend>
-                        <p>
-                            Monstera Adansonii
-                        </p>
-                    </fieldset>
-                    <fieldset class="fieldset-donate"> 
-                        <legend> Tips & tops </legend>
-                        <p>
-                            Monstera Adansonii
-                        </p>
-                    </fieldset>
+                    <ul class="ul-plant">
+                        <li class="li-plant plant-image">
+                            <h2 class="h2-plant title-plant">Monstera Adansonii</h2>
+                            <img  class="img-plant" src="./assets/plants/Monstera.jpeg"  alt="Stekje: Monstera Adansonii">
+                        </li>
+                        <li class="li-plant">
+                            <h2 class="h2-plant"> Tipts & tops:</h2>
+                            <p class="p-plant">
+                                Deze Monstera doet het even goed op 
+                                een lichte als op een schaduwrijke plaats. Direct zonlicht kun 
+                                je het beste vermijden.
+                            </p>
+                        </li>
+                        <li class="li-plant">
+                            <h2 class="h2-plant"> Omschrijving:</h2>
+                            <p class="p-plant">
+                                Deze Monstera Obliqua stek is ook bekend als Monstera Monkey Mask, 
+                                vanwege de gaten in de bladeren. Deze plant groeit oorspronkelijk 
+                                in het tropisch regenwoud. 
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="btn-plant-ruil">
+                        <input class="btn-all btn-primary btn-plant" href="" type="submit" value="Klik hier om te ruilen">
+                    </div>
                 </section>
             </article>
 
             <article class="plant-exchange plant-box">
                 <header class="header-donate">
-                    <h1 class="h1-donate">Voeg hier uw stekje toe</h1>
+                    <h1 class="h1-plant h1-donate">Voeg hier uw stekje toe</h1>
                 </header>
                 <form class="form-plantswap plant-form" action="" method="get">
                     <fieldset class="fieldset-donate">
-                        <legend>Afbeelding </legend>
+                        <legend class="legend-donate"> Titel </legend>
                             <div class="box-input">
-                                <label class="label-donate" for="text"> Upload hier een foto van je stekje:</label>
-                                <div class="input-image">
-                                    <input type="file" accept="image/png, image/jpeg">
-                                </div>
+                                <label class="label-donate" for="name">Geef je stekje een titel: </label>
+                                <input  class="input-donate" required="required" maxlength="54" placeholder="Bijv. (Monstera Adansonii) " type="text" name="name">
                             </div>
                     </fieldset>
                     <fieldset class="fieldset-donate">
-                        <legend> Titel </legend>
+                        <legend class="legend-donate">Afbeelding </legend>
                             <div class="box-input">
-                                <label class="label-donate" for="name">Geef je stekje een titel: </label>
-                                <input  class="input-donate" required="required" maxlength="54" placeholder="Naam van het stekje.." type="text" name="name">
+                                <label class="label-donate" for="text"> Upload hier een foto van je stekje:</label>
+                                <div class="input-image input-donate">
+                                    <input class="input-add-image" type="file" accept="image/png, image/jpeg">
+                                </div>
                             </div>
                     </fieldset>
                     <fieldset class="fieldset-donate"> 
-                        <legend> Omschrijving </legend>
-                            <div class="box-input">
-                                <label class="label-donate" for="text" >Omschrijf hier wat voor type stekje het is:</label>
-                                <textarea class="texarea-donate" name="description" rows="8" required="required" cols="50" placeholder="Vertel meer over je stekje.."></textarea>
-                            </div>
-                    </fieldset>
-                    <fieldset class="fieldset-donate"> 
-                        <legend> Tips & tops</legend>
+                        <legend class="legend-donate"> Verzorging</legend>
                             <div class="box-input">
                                 <label class="label-donate" for="text" > Geef hier wat tips & tops om het stekje te verzorgen: </label>
-                                <textarea class="texarea-donate" name="description" rows="8" required="required" cols="50" placeholder="Wat zijn belangerijke aspecten wat betreft verzorging.."></textarea>
+                                <textarea class="texarea-donate" name="description" rows="5" required="required" cols="50" placeholder="Stekje verzorg je door.."></textarea>
+                            </div>
+                    </fieldset>
+                    <fieldset class="fieldset-donate"> 
+                        <legend class="legend-donate"> Omschrijving </legend>
+                            <div class="box-input">
+                                <label class="label-donate" for="text" >Vertel meer over je stekje:</label>
+                                <textarea class="texarea-donate" name="description" rows="5" required="required" cols="50" placeholder="Mijn stekje is een.."></textarea>
                             </div>
                     </fieldset>
                     <div class="">
-                        <input class="btn-all btn-primary btn-submit" href="" type="submit" value="Klik hier om te ruilen">
+                        <input class="btn-all btn-primary btn-plant-submit" href="" type="submit" value="Bevestig">
                     </div>
                 </form>
             </article>
         </div>
-
         <div class="frame-footer-logo footer-donate-logo">
             <img class="footer-logo" src="./assets//icons/BuurtcampusFooter.svg" alt="Buurtcampus logo">
         </div>
     </main>
-
     <footer>
-
         <section class="content-footer">
             <div class="socials-frame">
                 <ul class="ul-socials">
@@ -160,5 +158,4 @@
     </footer>
     
     </body>
-    
     </html>
