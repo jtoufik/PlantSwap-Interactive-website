@@ -1,0 +1,38 @@
+.main-about{
+    height: 60em;
+    padding-top: 10em;
+    background-image: url(../assets/backgrounds/leaves7.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content-about{
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    backdrop-filter: invert(70%);
+    background-color: #f7f3f189;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);  
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.google-frame{
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.h1-overons{
+    color: var(--dark-green);
+    padding: 1em;
+    margin: 0;
+}
+
+.footer-donate-logo{
+    position: relative;
+    top: 14.5em;
+}
