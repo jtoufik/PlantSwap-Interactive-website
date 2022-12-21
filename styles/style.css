@@ -70,7 +70,7 @@ nav {
 .nav-link, .nav-item{
     font-family: Montserrat;
     font-size: 1em;
-    color: var(--green);
+    color: var(--dark-green);
     cursor: pointer;
     padding: .7em;
     transition: transform .2s;
@@ -155,11 +155,14 @@ h1{
     max-width: 36rem;
 }
 
+ul{
+    list-style: none;
+}
+
 .btn-list{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    list-style: none;
     padding: 0;
 }
 

@@ -1,5 +1,5 @@
 .main-contact{
-    height: 60em;
+    height: 80em;
     padding-top: 10em;
     background-image: url(../assets/backgrounds/leaves7.jpg);
     background-attachment: fixed;
@@ -11,7 +11,7 @@
     align-items: center;
     margin: 0 auto;
     width: 80%;
-    height: 80%;
+    height: 90%;
     backdrop-filter: invert(70%);
     background-color: #f7f3f189;
     border-radius: 5px;
@@ -19,20 +19,79 @@
     -webkit-backdrop-filter: blur(10px);
 }
 
+.content-contact-box{
+    width: 80%;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.kop-contact{
+    margin: 0 auto;
+    max-width: 34em;
+    text-align: left;
+    margin-top: 2em;
+}
+
+.kop-adres{
+    margin-top: 2em;
+}
 .google-frame{
     display: block;
     justify-content: center;
     margin: 0 auto;
-    width: 70%;
+    width: 97%;
+    border-radius: 5px;
+    outline: 2px solid white;
+    padding: 1em;
 }
 
-.h1-overons{
-    color: var(--dark-green);
-    padding: 1em;
-    margin: 0;
+.h1-contact{
+    color: black;
+    border-bottom: solid 2px var(--green);
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+    margin: 0 auto;
+    width: 70%;
+
+}
+
+.h2-contact{
+    margin: 1em;
+    margin-top: 3em;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+.ul-profile{
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.h3-contact{
+    font-family: Montserrat, arial;
+}
+
+.profiel{
+    max-width: 5em;
+    max-height: 5em; 
 }
 
 .footer-donate-logo{
     position: relative;
-    top: 14.5em;
+    top: 3.4em;
+}
+
+/* END pagina */
+
+.main-end{
+    height: 65em;
+}
+
+.footer-end-logo{
+    position: relative;
+    top: 1.9em;
 }
