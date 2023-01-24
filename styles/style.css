@@ -68,7 +68,7 @@ nav {
 }
 
 .nav-link, .nav-item{
-    font-family: Montserrat;
+    font-family: Montserrat, arial;
     font-size: 1em;
     color: var(--dark-green);
     cursor: pointer;
@@ -116,6 +116,7 @@ a{
     -webkit-backdrop-filter: blur(10px);
     box-shadow: var(--shadow); 
     padding: 1em;
+    font-family: Montserrat, arial;
     letter-spacing: 0.1em;
     margin: 0 auto;
     display: block;
