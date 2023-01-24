@@ -121,3 +121,30 @@
     padding-top: 1em;
     border-radius: 5px;
 }
+
+
+.plant-chosen{
+    position: relative;
+}
+
+.plant-exchange{
+    position: relative;
+}
+
+#article-form{
+    display: none;
+
+}
+
+.slide {
+    animation: slide 1000ms;
+}
+
+@keyframes slide {
+    from {
+    transform: translateX(-100%);
+    }
+    to {
+    transform: translateX(0%);
+    }
+}

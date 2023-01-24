@@ -1,19 +1,15 @@
-let postButton = document.querySelector(".post-button");
 
-postButton.addEventListener("click", toggleAntwoordlijst);
+// const articleForm = document.querySelector('#article-form')
 
+// let showOrHide = function(){
+//     articleForm.style.display = 'block'
+// }
 
+let toggleBtn = document.querySelector('#btn-toggle');
+let plantExchange = document.querySelector('#article-form');
 
-function toggleAntwoordlijst() {
-
-  var antwoordLijst = document.querySelector(".antwoordlijst");
-
-  antwoordLijst.classList.toggle("wel-relevant");
-
-}
-
-
-
-let terugButton = document.querySelector(".terug-button");
-
-terugButton.addEventListener("click", toggleAntwoordlijst);
+toggleBtn.addEventListener('click', function() {
+  // toggleBtn.classList.toggle('is-closed');
+  plantExchange.style.display = 'block'
+  plantExchange.classList.toggle('.slide');
+})

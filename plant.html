@@ -10,8 +10,9 @@
         <link rel="stylesheet" href="./styles/donate.css">
         <link rel="stylesheet" href="./assets/fontawesome-free-6.2.1-web/css/all.css">
         <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat">
-        <link src="./scripts/script.js" defer>
+        <script src="./scripts/script.js" defer> </script>
     </head>
+
 <body>
     <header class="header-plant">
         <nav>
@@ -36,7 +37,9 @@
             </div>
         </nav>
     </header>
+
     <main class="main-plant">
+
         <div class="plant-container">
             <article class="plant-chosen plant-box">
                 <header class="header-donate">
@@ -65,13 +68,19 @@
                             </p>
                         </li>
                     </ul>
+                    <!-- <div class="btn-plant-ruil">
+                        <button OnClick="showOrHide()" class="btn-all btn-primary btn-plant"> Volgende </button>
+                    </div> -->
                     <div class="btn-plant-ruil">
-                        <input class="btn-all btn-primary btn-plant" href="" type="submit" value="Klik hier om te ruilen">
+                        <button id="btn-toggle" class="btn-all btn-primary btn-plant"> Volgende </button>
                     </div>
+                    <!-- <div class="btn-plant-ruil">
+                        <a id="btn-return" class="btn-all btn-primary btn-plant" href="overview.html"> Terug </a>
+                    </div> -->
                 </section>
             </article>
 
-            <article class="plant-exchange plant-box">
+            <article id="article-form" class="plant-exchange plant-box">
                 <header class="header-donate">
                     <h1 class="h1-plant h1-donate">Voeg hier uw stekje toe</h1>
                 </header>
@@ -112,10 +121,12 @@
                 </form>
             </article>
         </div>
+
         <div class="frame-footer-logo footer-donate-logo">
             <img class="footer-logo" src="./assets//icons/BuurtcampusFooter.svg" alt="Buurtcampus logo">
         </div>
     </main>
+
     <footer>
         <section class="content-footer">
             <div class="socials-frame">
