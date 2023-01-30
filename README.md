@@ -2,7 +2,7 @@
 Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
 De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# PLANTSWAP Interactive model
+# Plant Swap Interactive-model
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ![image](https://user-images.githubusercontent.com/112856590/214436449-469ad549-7a2e-4bdb-8a6d-9e7fd611d220.png)
